@@ -9,7 +9,7 @@ jobs:
             - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
             - run: echo "Branch ${{ github.ref }}"
             - name: Check out repository code
-              uses: action/checkout@v4
+              uses: actions/checkout@v4
             - run: echo "Repositorry ${{ github.repository }}"
             - run: echo "Ready."
             - name: List files in the repository
